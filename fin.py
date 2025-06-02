@@ -3200,8 +3200,7 @@ def show_login_page():
         # Title with logo
         st.markdown("""
         <div class="login-title">
-            <h1>📊 Piyadasa-DSR Data Processor</h1>
-            <p>Streamlined shipment data analysis platform</p>
+            <h1>📊 Piyadasa-Import Shipment Tracker</h1>
         </div>
         """, unsafe_allow_html=True)
         
