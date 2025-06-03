@@ -1901,7 +1901,7 @@ def compute_clearance(row):
 
 
 def show_current_step():
-    st.title("📊 Piyadasa-Import Shipment Tracker")
+    st.title("📊 Import Shipment Tracker")
     st.caption("Process and combine shipment data from multiple sources")
 
     step = st.selectbox("🔢 Jump to Step", [1, 2, 3, 4, 5], index=st.session_state.current_step - 1)
@@ -3200,7 +3200,7 @@ def show_login_page():
         # Title with logo
         st.markdown("""
         <div class="login-title">
-            <h1>📊 Piyadasa-Import Shipment Tracker</h1>
+            <h1>📊 Import Shipment Tracker</h1>
         </div>
         """, unsafe_allow_html=True)
         
